@@ -123,7 +123,7 @@ public class FXMLController {
         assert txtResult != null : "fx:id=\"txtResult\" was not injected: check your FXML file 'Scene.fxml'.";
     }
     
-    public void setModel(Model model) {
+    public void setModel(Model model) {..
     	this.model = model;
     	
     	cmbCitta.getItems().addAll(model.getAllCities()) ;
